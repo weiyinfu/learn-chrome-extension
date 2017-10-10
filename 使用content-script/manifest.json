@@ -1,0 +1,19 @@
+{
+  "name": "我的第一个Chrome插件",
+  "description": "This is my first chrome extension",
+  "version": "0.1",
+  "manifest_version": 2,
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches":["https://baike.baidu.com/item/*"],
+      "js":["baike.js"]
+    },
+    {
+      "matches":["http://blog.csdn.net/*"],
+      "js":["csdn.js"]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "chrome_extension_name": {
+    "message": "中文Chrome扩展"
+  },
+  "chrome_extension_description": {
+    "message": "扩展描述：返回浏览器可以接受的语言"
+  },
+  "click_here": {
+    "message": "左击列出可以接受的语言"
+  },
+  "browser_action_title": {
+    "message": "点我"
+  },
+  "chrome_accept_languages": {
+    "message": "$CHROME$ 可以接受 $languages$ languages",
+    "placeholders": {
+      "chrome": {
+        "content": "Chrome",
+        "example": "Chrome"
+      },
+      "languages": {
+        "content": "$1",
+        "example": "en-US,sr,de"
+      }
+    }
+  }
+}
