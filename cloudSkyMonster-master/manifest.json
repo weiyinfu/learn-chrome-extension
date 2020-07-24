@@ -1,0 +1,92 @@
+{
+    "version": "2.0.2",
+    "name": "cloudSkyMonster",
+    "manifest_version": 2,
+    "description": "__MSG_pluginDesc__",
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ]
+    },
+    "icons": {
+        "48": "images/48.png",
+        "96": "images/96.png",
+        "128": "images/128.png"
+    },
+    "permissions": [
+        "<all_urls>",
+        "tabs",
+        "contextMenus",
+        "storage",
+        "unlimitedStorage",
+        "notifications",
+        "idle",
+        "alarms",
+        "cookies",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    "content_security_policy": "script-src 'self' https://api.github.com https://gitee.com; object-src 'self'",
+    "browser_action": {
+        "default_icon": "images/96.png",
+        "default_title": "cloudSkyMonster",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "js/jquery-2.2.2.min.js",
+                "js/contentScript.js"
+            ],
+            "css": [
+                "css/contentScript.css"
+            ],
+            "run_at": "document_start"
+        },
+        {
+            "matches": [
+                "http://10.0.18.10:9098/Radius/reader/routerFirst*"
+            ],
+            "js": [
+                "js/gzLibrary.js"
+            ],
+            "css": [],
+            "run_at": "document_start"
+        },
+        {
+            "matches": [
+                "https://pan.baidu.com/s/*"
+            ],
+            "js": [
+                "js/baiduPan.js"
+            ],
+            "css": [],
+            "run_at": "document_start"
+        }
+    ],
+    "web_accessible_resources": [
+        "js/gzLibraryInject.js",
+        "js/baiduPanInject.js"
+    ],
+    "homepage_url": "https://github.com/scoful/cloudSkyMonster",
+    "default_locale": "zh_CN",
+    "commands": {
+        "toggle-feature-save-all": {
+            "suggested_key": {
+                "default": "Ctrl+Q",
+                "mac": "Command+Q"
+            },
+            "description": "__MSG_toggleFeatureSaveAllTabs__"
+        },
+        "toggle-feature-save-current": {
+            "suggested_key": {
+                "default": "Alt+Q",
+                "mac": "Alt+Q"
+            },
+            "description": "__MSG_toggleFeatureSaveCurrentTabs__"
+        }
+    }
+}
