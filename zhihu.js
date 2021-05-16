@@ -17,3 +17,12 @@ document.onreadystatechange = function () {
     parent.insertBefore(button,parent.children[0])
   }
 }
+
+
+/**
+ ,{
+      "matches": ["https://www.zhihu.com/creator/featured-question/invited"],
+      "css": [ ],
+      "js": [ "zhihu.js"]
+    }
+ * */
