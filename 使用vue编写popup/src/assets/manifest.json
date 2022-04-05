@@ -1,0 +1,15 @@
+{
+  "name": "VuePopup",
+  "description": "使用Vue编写Popup页面",
+  "version": "0.7.3",
+  "permissions": [
+    "management"
+  ],
+  "browser_action": {
+    "default_title": "VuePopup",
+    "default_popup": "index.html"
+  },
+  "icons": {
+  },
+  "manifest_version": 2
+}

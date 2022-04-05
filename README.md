@@ -70,3 +70,20 @@ Unchecked runtime.lastError: Tabs cannot be edited right now (user may be draggi
         }, 150)
     })
 ```
+
+# 推荐使用的chrome插件
+* 有道词典Chrome画词插件
+* 防止休眠或屏幕关闭
+* Vue.js Devtool、React devtool、Redux devtool
+* Stylus:样式管理器
+* ModHeader：伪装header插件
+* SwitchyOmega：代理切换工具
+* AdblockPlus
+* JSON Viewer
+
+# 我自己实现的Chrome插件
+* lecodead：leetcode去广告插件
+* 飞书目录
+* 书签去重插件
+* laterSee：一会儿再看
+* 页面重写插件：新标签页重写、历史页重写、书签页重写

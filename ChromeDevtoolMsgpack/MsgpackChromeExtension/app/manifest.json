@@ -1,0 +1,39 @@
+{
+	"name" : "MsgpackChromeExtension",
+	"version" : "0.0.1",
+	"manifest_version" : 2,
+	"description" : "Msgpack Chrome Extension",
+	"background": {
+		"scripts": [
+			"js/lib/jquery.min.js",
+			"js/background.js"
+		]
+	},
+	"options_page": "options.html",
+	"page_action" : {
+		"default_icon"  : "img/icon.png",
+		"default_title" : "Msgpack Chrome Extension",
+		"default_popup" : "popup.html"
+	},
+	"permissions" : [
+		"webRequest",
+		"webRequestBlocking",
+		"tabs",
+		"http://*/*"
+	],
+	"content_scripts": [
+		{
+			"matches": [
+				"http://*/*"
+			],
+			"js": [
+				"js/lib/msgpack-javascript/msgpack.js",
+				"js/lib/jquery.min.js",
+				"js/contents.js"
+			],
+			"run_at": "document_start",
+			"all_frames": true
+		}
+	],
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
