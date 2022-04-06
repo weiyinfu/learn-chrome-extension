@@ -1,0 +1,14 @@
+{
+  "name": "标签列表查看器",
+  "description": "就叫标签列表查看器",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ]
+}

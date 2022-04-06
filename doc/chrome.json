@@ -1,0 +1,171 @@
+{
+  "management": {
+    "LaunchType": {
+      "OPEN_AS_REGULAR_TAB": "OPEN_AS_REGULAR_TAB",
+      "OPEN_AS_PINNED_TAB": "OPEN_AS_PINNED_TAB",
+      "OPEN_AS_WINDOW": "OPEN_AS_WINDOW",
+      "OPEN_FULL_SCREEN": "OPEN_FULL_SCREEN"
+    },
+    "ExtensionDisabledReason": {
+      "UNKNOWN": "unknown",
+      "PERMISSIONS_INCREASE": "permissions_increase"
+    },
+    "ExtensionType": {
+      "EXTENSION": "extension",
+      "HOSTED_APP": "hosted_app",
+      "PACKAGED_APP": "packaged_app",
+      "LEGACY_PACKAGED_APP": "legacy_packaged_app",
+      "THEME": "theme"
+    },
+    "ExtensionInstallType": {
+      "ADMIN": "admin",
+      "DEVELOPMENT": "development",
+      "NORMAL": "normal",
+      "SIDELOAD": "sideload",
+      "OTHER": "other"
+    },
+    "onInstalled": {},
+    "onUninstalled": {},
+    "onEnabled": {},
+    "onDisabled": {}
+  },
+  "runtime": {
+    "PlatformOs": {
+      "MAC": "mac",
+      "WIN": "win",
+      "ANDROID": "android",
+      "CROS": "cros",
+      "LINUX": "linux",
+      "OPENBSD": "openbsd"
+    },
+    "PlatformArch": {
+      "ARM": "arm",
+      "X86_32": "x86-32",
+      "X86_64": "x86-64"
+    },
+    "PlatformNaclArch": {
+      "ARM": "arm",
+      "X86_32": "x86-32",
+      "X86_64": "x86-64"
+    },
+    "RequestUpdateCheckStatus": {
+      "THROTTLED": "throttled",
+      "NO_UPDATE": "no_update",
+      "UPDATE_AVAILABLE": "update_available"
+    },
+    "OnInstalledReason": {
+      "INSTALL": "install",
+      "UPDATE": "update",
+      "CHROME_UPDATE": "chrome_update",
+      "SHARED_MODULE_UPDATE": "shared_module_update"
+    },
+    "OnRestartRequiredReason": {
+      "APP_UPDATE": "app_update",
+      "OS_UPDATE": "os_update",
+      "PERIODIC": "periodic"
+    },
+    "onStartup": {},
+    "onInstalled": {},
+    "onSuspend": {},
+    "onSuspendCanceled": {},
+    "onUpdateAvailable": {},
+    "onBrowserUpdateAvailable": {},
+    "onConnect": {},
+    "onConnectExternal": {},
+    "onMessage": {},
+    "onMessageExternal": {},
+    "onRestartRequired": {},
+    "id": "bbpjmpkfkpkffahdacfinkjnpfmjdghg"
+  },
+  "extension": {
+    "ViewType": {
+      "TAB": "tab",
+      "POPUP": "popup"
+    },
+    "onRequest": {},
+    "onRequestExternal": {},
+    "inIncognitoContext": false,
+    "onConnect": {},
+    "onConnectExternal": {},
+    "onMessage": {},
+    "onMessageExternal": {}
+  },
+  "app": {
+    "isInstalled": false
+  },
+  "browserAction": {
+    "onClicked": {}
+  },
+  "i18n": {},
+  "permissions": {
+    "onAdded": {},
+    "onRemoved": {}
+  },
+  "tabs": {
+    "MutedInfoReason": {
+      "USER": "user",
+      "CAPTURE": "capture",
+      "EXTENSION": "extension"
+    },
+    "ZoomSettingsMode": {
+      "AUTOMATIC": "automatic",
+      "MANUAL": "manual",
+      "DISABLED": "disabled"
+    },
+    "ZoomSettingsScope": {
+      "PER_ORIGIN": "per-origin",
+      "PER_TAB": "per-tab"
+    },
+    "TabStatus": {
+      "LOADING": "loading",
+      "COMPLETE": "complete"
+    },
+    "WindowType": {
+      "NORMAL": "normal",
+      "POPUP": "popup",
+      "PANEL": "panel",
+      "APP": "app",
+      "DEVTOOLS": "devtools"
+    },
+    "onCreated": {},
+    "onUpdated": {},
+    "onMoved": {},
+    "onSelectionChanged": {},
+    "onActiveChanged": {},
+    "onActivated": {},
+    "onHighlightChanged": {},
+    "onHighlighted": {},
+    "onDetached": {},
+    "onAttached": {},
+    "onRemoved": {},
+    "onReplaced": {},
+    "onZoomChange": {},
+    "TAB_ID_NONE": -1
+  },
+  "windows": {
+    "WindowType": {
+      "NORMAL": "normal",
+      "POPUP": "popup",
+      "PANEL": "panel",
+      "APP": "app",
+      "DEVTOOLS": "devtools"
+    },
+    "WindowState": {
+      "NORMAL": "normal",
+      "MINIMIZED": "minimized",
+      "MAXIMIZED": "maximized",
+      "FULLSCREEN": "fullscreen",
+      "DOCKED": "docked"
+    },
+    "CreateType": {
+      "NORMAL": "normal",
+      "POPUP": "popup",
+      "PANEL": "panel"
+    },
+    "onCreated": {},
+    "onRemoved": {},
+    "onFocusChanged": {},
+    "WINDOW_ID_NONE": -1,
+    "WINDOW_ID_CURRENT": -2
+  }
+}

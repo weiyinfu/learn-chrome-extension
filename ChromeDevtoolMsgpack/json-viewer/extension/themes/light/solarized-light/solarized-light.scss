@@ -1,0 +1,16 @@
+.theme-solarized_light-css-check:before {
+  content: 'loaded';
+  display: none;
+}
+
+.cm-s-solarized.cm-s-light div.CodeMirror-selected {
+  background: #E2DCC8;
+}
+
+.extras {
+  .icon {
+    &:hover {
+      background-color: #D6D1C0;
+    }
+  }
+}

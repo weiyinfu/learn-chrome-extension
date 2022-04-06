@@ -1,0 +1,24 @@
+.CodeMirror {
+  span.cm-string-link {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.CodeMirror-foldgutter {
+  padding: 0 5px;
+}
+
+.CodeMirror pre,
+.CodeMirror-lines .CodeMirror-cursor,
+div.CodeMirror-selected {
+  margin-left: 5px;
+}
+
+.CodeMirror-gutter-elt {
+  text-align: center;
+}
+
+.CodeMirror-sizer {
+  margin-right: 70px;
+}

@@ -1,0 +1,20 @@
+.aside-box, csdn-toolbar tb_disnone, #csdn-toolbar, .recommend-right, aside, .tool-box {
+    display: none !important;
+}
+
+#mainBox {
+    display: flex;
+}
+
+html main div.blog-content-box {
+    width: 800px;
+}
+
+html main div.blog-content-box p, html main div.blog-content-box li, html main div.blog-content-box pre code, #article_content {
+    font-size: 25px !important;
+    line-height: 30px !important;
+}
+
+.nodata {
+    background: black;
+}
