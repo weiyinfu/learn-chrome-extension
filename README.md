@@ -80,10 +80,37 @@ Unchecked runtime.lastError: Tabs cannot be edited right now (user may be draggi
 * SwitchyOmega：代理切换工具
 * AdblockPlus
 * JSON Viewer
-
+* video download helper，可以下载各种视频
+* 防止休眠或屏幕关闭
+* Vuejs devtools
+* 有道词典Chrome划词插件
+* Tampermonkey
+* Stylus
+* ProxySwitchyOmega
+* ModHeader：修改header
+* JSONViewer
+* Charset：修改网站默认编码
+* AdblockPlus
+* 火狐标签页
+* 附加组件管理
+* 火狐新标签页
+* 火狐主页
+* 沙拉查词：划词查询，与有道词典划词插件是竞品
+* 网页截图：网页截图工具
+* Progressive Web Apps for Firefox：火狐PWA插件
+* TreeStyleTab：树状标签页
+* NewTabOverride
+* DarkReader：夜间模式
+* LeechBlock：封禁一些网站，坚决不看这些网站
+* OneTab
+* TabStash
 # 我自己实现的Chrome插件
 * lecodead：leetcode去广告插件
 * 飞书目录
 * 书签去重插件
 * laterSee：一会儿再看
 * 页面重写插件：新标签页重写、历史页重写、书签页重写
+* feishu目录
+* lecodead
+* latersee
+* TWP - Translate Web Pages：火狐上的网页翻译插件。
