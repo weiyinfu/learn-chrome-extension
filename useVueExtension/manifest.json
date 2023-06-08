@@ -1,0 +1,26 @@
+{
+  "name": "baga",
+  "description": "一会儿再看，把全部标签页保存下来",
+  "version": "1.0",
+  "manifest_version": 2,
+  "icons": {
+    "128": "latersee.png",
+    "32": "latersee.png"
+  },
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "js/app.fbb4c588.js",
+      "js/chunk-vendors.8e6faf84.js"
+    ]
+  },
+  "permissions": [
+    "tabs",
+    "contextMenus",
+    "activeTab",
+    "http://*/"
+  ]
+}
